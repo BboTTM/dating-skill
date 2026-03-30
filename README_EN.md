@@ -17,3 +17,10 @@ Explicitly unsupported:
 
 - reconciliation
 - getting an ex back
+
+---
+
+MIT License © [BboTTM](https://github.com/BboTTM)
+
+This skill references the meta-skill structure and README organization style from
+[titanwings/colleague-skill](https://github.com/titanwings/colleague-skill).

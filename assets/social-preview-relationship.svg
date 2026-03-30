@@ -1,0 +1,18 @@
+<svg width="1280" height="640" viewBox="0 0 1280 640" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1280" height="640" fill="#F4EEE9"/>
+  <rect x="58" y="58" width="1164" height="524" rx="24" fill="#FFFDFC" stroke="#DDD2C8" stroke-width="4"/>
+  <rect x="120" y="168" width="1040" height="120" rx="16" fill="#F2EFF9"/>
+  <text x="640" y="118" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="64" font-weight="700" fill="#252833">关系推进.skill</text>
+  <text x="640" y="222" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="34" font-style="italic" fill="#5A6170">把互动风格、边界感、好感信号与推进节奏蒸馏成 AI Skill</text>
+  <text x="640" y="270" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="34" font-style="italic" fill="#5A6170">让你在沉浸式互动里练习关系推进</text>
+  <text x="640" y="368" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="30" font-weight="700" fill="#23262D">支持 archetype、星座、MBTI、真人复刻、飞书导入与策略视角</text>
+  <text x="640" y="420" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="28" fill="#23262D">相识 · 熟悉 · 升温 · 暧昧 · 表白 · 确定关系</text>
+  <rect x="270" y="486" width="140" height="44" rx="10" fill="#3C4049"/>
+  <rect x="426" y="486" width="146" height="44" rx="10" fill="#D4AF37"/>
+  <rect x="588" y="486" width="160" height="44" rx="10" fill="#1777C8"/>
+  <rect x="764" y="486" width="196" height="44" rx="10" fill="#7C3AED"/>
+  <text x="340" y="515" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#FFFFFF">MIT</text>
+  <text x="499" y="515" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#FFFFFF">Python</text>
+  <text x="668" y="515" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#FFFFFF">3.9+</text>
+  <text x="862" y="515" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="24" fill="#FFFFFF">Claude Code Skill</text>
+</svg>

@@ -27,6 +27,11 @@
 
 </div>
 
+这个 skill 既能拿来“演”，也能拿来“练”。
+
+默认是沉浸式互动，不会主动打破氛围；
+只有用户主动输入 `/debrief`、`/strategy`、`/analyze` 时，才切到策略视角。
+
 ## 安装
 
 这个目录本身就是一个独立 skill。
@@ -175,3 +180,10 @@ python3 tools/skill_writer.py --action refresh-card --slug lin --base-dir ./rela
 ```bash
 python3 -m unittest discover -s tests -v
 ```
+
+---
+
+MIT License © [BboTTM](https://github.com/BboTTM)
+
+这个 skill 的 meta-skill 结构与 README 组织方式参考了
+[titanwings/colleague-skill](https://github.com/titanwings/colleague-skill)。
