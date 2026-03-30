@@ -7,8 +7,8 @@
 > “聊得来，不等于能推进关系。”<br>
 > 让 AI 模仿一个真实的人，陪你把关系从相识走到确定关系。
 
-**把互动风格、边界感、好感信号与推进节奏蒸馏成 AI Skill。<br>
-让你在沉浸式互动里练习，必要时再切到策略视角。**
+**模拟恋爱进程，但可以蒸馏人格。<br>
+把互动风格、边界感、好感信号与推进节奏蒸馏成 AI Skill。**
 
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 ![Python 3.9+](https://img.shields.io/badge/Python-3.9%2B-blue.svg)
@@ -30,7 +30,8 @@
 这个 skill 既能拿来“演”，也能拿来“练”。
 
 默认是沉浸式互动，不会主动打破氛围；
-只有用户主动输入 `/debrief`、`/strategy`、`/analyze` 时，才切到策略视角。
+只有用户主动输入 `/debrief`、`/strategy`、`/analyze`，
+或者明确用自然语言表达“帮我分析”“现在是什么阶段”“我下一步该怎么推进”“别演了直接给建议”这类意图时，才切到策略视角。
 
 ## 安装
 
@@ -108,7 +109,8 @@ relationships/{slug}/corrections.jsonl
 ```
 
 默认始终保持沉浸式，不会主动跳出剧情给建议。
-只有用户主动输入 `/debrief`、`/strategy`、`/analyze` 时，才切换到策略视角。
+只有用户主动输入 `/debrief`、`/strategy`、`/analyze`，
+或者自然语言明确请求“分析 / 复盘 / 给建议 / 判断阶段”时，才切换到策略视角。
 
 ### 4. 回滚对象
 
