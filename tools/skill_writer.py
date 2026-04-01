@@ -14,8 +14,8 @@ from analyze_relationship_materials import analyze
 
 
 RUNTIME_TEMPLATE = """---
-name: relationship_{slug}
-description: {display_name}，{source_label}，关系推进模拟
+name: dating_{slug}
+description: {display_name}，{source_label}，恋爱模拟
 user-invocable: true
 ---
 

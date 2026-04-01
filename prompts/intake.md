@@ -1,4 +1,4 @@
-# 关系推进.skill 录入问题
+# 恋爱.skill 录入问题
 
 ## archetype 模式
 

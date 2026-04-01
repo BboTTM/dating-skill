@@ -1,6 +1,6 @@
 ---
-name: relationship_lin-demo
-description: Lin，真人复刻，关系推进模拟
+name: dating_lin-demo
+description: Lin，真人复刻，恋爱模拟
 user-invocable: true
 ---
 

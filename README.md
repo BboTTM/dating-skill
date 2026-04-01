@@ -1,6 +1,6 @@
 <div align="center">
 
-# 关系推进.skill
+# 恋爱.skill
 
 <hr>
 
@@ -41,13 +41,13 @@ Claude Code:
 
 ```bash
 mkdir -p .claude/skills
-cp -R /path/to/relationship-skill .claude/skills/create-relationship
+cp -R /path/to/dating-skill .claude/skills/create-dating
 ```
 
 或全局安装：
 
 ```bash
-cp -R /path/to/relationship-skill ~/.claude/skills/create-relationship
+cp -R /path/to/dating-skill ~/.claude/skills/create-dating
 ```
 
 可选依赖：
@@ -61,7 +61,7 @@ pip3 install -r requirements.txt
 ### 1. 创建关系对象
 
 ```text
-/create-relationship
+/create-dating
 ```
 
 创建时支持两条路径：
@@ -84,7 +84,7 @@ pip3 install -r requirements.txt
 ### 2. 继续养成和纠正
 
 ```text
-/update-relationship lin
+/update-dating lin
 ```
 
 可以做两类更新：
@@ -125,7 +125,7 @@ relationships/{slug}/corrections.jsonl
 ### 4. 回滚对象
 
 ```text
-/relationship-rollback lin v2
+/dating-rollback lin v2
 ```
 
 ## 阶段模型
@@ -157,9 +157,9 @@ relationships/{slug}/corrections.jsonl
 ```text
 用户              ❯ /lin
 
-关系推进.skill     ❯ 今天怎么突然找我？
+恋爱.skill         ❯ 今天怎么突然找我？
 用户              ❯ 想起你之前说过那家店，我刚好路过。
-关系推进.skill     ❯ 你这开场还挺自然的。你去了吗？
+恋爱.skill         ❯ 你这开场还挺自然的。你去了吗？
 ```
 
 场景二：切策略视角
@@ -167,10 +167,10 @@ relationships/{slug}/corrections.jsonl
 ```text
 用户              ❯ /strategy
 
-关系推进.skill     ❯ 当前阶段判断：熟悉 -> 升温边缘
-                  对方信号：回应稳定，愿意接你的话题，但还没有明显情绪投入
-                  风险点：过早表露推进意图会破坏自然感
-                  下一步建议：围绕共同记忆或线下轻邀约，测试主动性
+恋爱.skill         ❯ 当前阶段判断：熟悉 -> 升温边缘
+                    对方信号：回应稳定，愿意接你的话题，但还没有明显情绪投入
+                    风险点：过早表露推进意图会破坏自然感
+                    下一步建议：围绕共同记忆或线下轻邀约，测试主动性
 ```
 
 ## 飞书聊天记录导入

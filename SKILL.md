@@ -1,35 +1,35 @@
 ---
-name: create-relationship
-description: "Create and evolve a relationship progression skill. Supports archetype-based characters and real-person reconstruction from chats, screenshots, docs, Feishu API, and notes. | 创建并进化一个关系推进 skill。"
+name: create-dating
+description: "Create and evolve a dating skill. Supports archetype-based characters and real-person reconstruction from chats, screenshots, docs, Feishu API, and notes. | 创建并进化一个恋爱 skill。"
 argument-hint: "[person-name-or-slug]"
 version: "0.1.0"
 user-invocable: true
 allowed-tools: Read, Write, Edit, Bash
 ---
 
-# 关系推进.skill 创建器
+# 恋爱.skill 创建器
 
 这个 skill 用来做两件事：
 
 1. 创建一个新的关系对象
-2. 调用一个已有对象做沉浸式关系推进互动
+2. 调用一个已有对象做沉浸式恋爱互动
 
 ## 触发方式
 
-- `/create-relationship`
-- “帮我做一个关系推进 skill”
+- `/create-dating`
+- “帮我做一个恋爱 skill”
 - “我想蒸馏一个暧昧对象”
 - “创建一个恋爱对象”
 
 运行和管理流程：
 
-- `/update-relationship {slug}`
-- `/relationship-rollback {slug} {version}`
+- `/update-dating {slug}`
+- `/dating-rollback {slug} {version}`
 - `/{slug}`
 
 ## 使用目标
 
-这个 skill 不是普通聊天器，而是“模拟恋爱进程，但可以蒸馏人格”的关系推进模拟器。
+这个 skill 不是普通聊天器，而是“模拟恋爱进程，但可以蒸馏人格”的恋爱模拟器。
 
 它服务的阶段是：
 
@@ -177,7 +177,7 @@ python3 ${CLAUDE_SKILL_DIR}/tools/skill_writer.py \
 
 ## 进化流程
 
-`/update-relationship {slug}` 只做两件事：
+`/update-dating {slug}` 只做两件事：
 
 1. 追加资料
 2. 对话纠正

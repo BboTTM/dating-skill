@@ -1,4 +1,4 @@
 version: 1
-display_name: Relationship Skill
-short_description: Create and evolve relationship progression personas for immersive interaction and stage-aware strategy analysis.
-default_prompt: Create a relationship progression persona or update an existing one using materials, stage info, and corrections.
+display_name: Dating Skill
+short_description: Create and evolve dating personas for immersive interaction and stage-aware strategy analysis.
+default_prompt: Create a dating persona or update an existing one using materials, stage info, scenes, and corrections.

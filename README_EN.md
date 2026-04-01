@@ -1,6 +1,6 @@
-# Relationship Progression Skill
+# Dating Skill
 
-Create a relationship persona and simulate the progression from meeting to commitment.
+Create a dating persona and simulate the progression from meeting to being in a relationship.
 
 This skill supports:
 
@@ -11,7 +11,7 @@ This skill supports:
 
 Main path:
 
-`meet -> know -> warm up -> flirt -> confess -> commit`
+`meet -> know -> warm up -> flirt -> confess -> commit -> dating`
 
 Explicitly unsupported:
 
